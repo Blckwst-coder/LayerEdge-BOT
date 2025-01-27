@@ -1,5 +1,5 @@
 const fs = require("fs").promises;
-import axios from "axios";
+const axios = require("axios");
 import readline from "readline";
 import { getBanner } from "./config/banner.js";
 import { colors } from "./config/colors.js";
